@@ -68,3 +68,25 @@ print(df)
 print('---- 데이터 프레임 인덱싱 ----')
 print(df['지역'])
 print('-' * 30)
+
+print(df['2010'])
+print('-' * 30)
+
+print(df[['2010','2015']])
+print('-' * 30)
+
+print('---- 데이터 프레임 행 인덱싱 ----')
+# print(df['서울' : '서울'])
+# print(df[: '서울'])
+# print(df[0:1])
+print(df[:1])
+print('-' * 30)
+
+print(df[-1:])
+print('-' * 30)
+
+print('--- 데이터 프레임 행,열 인덱싱 ---')
+print(df['2015']['서울'])
+print('-' * 30)
+
+# print(df['서울']['2015'])   # 오류발생
